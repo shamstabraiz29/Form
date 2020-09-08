@@ -1,0 +1,179 @@
+body{
+	background: lightgreen;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 50px;
+	color: white;
+}
+h1{
+	display: inline-block;
+}
+.container{
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-gap: 10px;
+}
+.login{
+	background: #9c27b0;
+	border-radius: 50px;
+	border:solid white 5px;
+}
+.top-content{
+	width: 50%;
+	position: relative;
+	animation: eg 5s linear 1s 500 alternate ; 
+}
+@keyframes eg{
+	from{
+		left:00px;
+	}to{
+		left:200px ;
+	}
+}
+.login i{
+	font-size: 50px;
+}
+
+.login input{
+	width: 50%;
+	padding: 20px;
+	border-radius: 10px;
+	background: #f1e7f3;
+	border:solid white;
+	 color: #9c27b0;
+}
+.Forget{
+	line-height: 20px;
+	color: #10ff00fc;
+}
+.login a{
+	color: blue;
+}
+.footer{
+	position: relative;
+	margin-top: 15rem;
+}
+.Create{
+	background: #9c27b0;
+	border-radius: 50px;
+	border:solid white 5px;
+}
+.Create i{
+	font-size: 50px;
+}
+.Create label{
+	float: left;
+	margin-left: 10px;
+}
+.Create input{
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	border: solid white;
+}
+.name1{
+	width: 50%;
+	position: relative;
+	left: 10%;
+	background:#f1e7f3;
+	border: solid white;
+	color: #9c27b0;
+}
+.name2{
+	width: 50%;
+	position: relative;
+	left: 7%;
+	background:#f1e7f3;
+	border: solid white;
+	color: #9c27b0;
+}
+.email{
+	width: 50%;
+	position: relative;
+	left: 14%;
+	background: #f1e7f3;
+	border: solid white;
+	color: #9c27b0;
+}
+.male{
+	width: 50%;
+	position: relative;
+	right: 12.5%;
+	background: #f1e7f3;
+}
+.female{
+	position: relative;
+	right: 14%;
+	background: #f1e7f3;
+}
+.number{
+	width: 50%;
+	position: relative;
+	left: 12.5%;
+	background: #f1e7f3;
+	border: solid white;
+	color: #9c27b0;
+}
+.date{
+	width: 50%;
+	position: relative;
+	left: 12%;
+	background: #f1e7f3;
+	border: solid white;
+	color: #9c27b0;
+}
+.submit{
+	width: 56%;
+	margin: 40px;
+	background: #9c27b0;
+	color: white;
+
+}
+.submit:hover{
+	background:#07ff30;
+	cursor: pointer;
+}
+
+.verification{
+		background: #9c27b0;
+		border-radius: 50px;
+		border:solid white 5px;
+}
+.verification input{
+	border-radius: 10px;
+	border: solid white;
+}
+.verification i{
+ font-size: 50px;
+}
+.code{
+	width: 50%;
+	padding: 10px;
+	background: #f1e7f3;
+	color: #9c27b0;
+}
+.last-submit{
+	padding: 10px;
+	margin: 54px;
+	width: 60%;
+	background: #9c27b0;
+	color: white;
+
+}
+.last-submit:hover{
+	background: #07ff30;
+	cursor: pointer;
+}
+
+span{
+	color: #10ff00fc;
+}
+.verification h6{
+	font-size: 15px;
+}
+.verification h5{
+	color: #10ff00fc;
+}
+.verification p{
+	margin: 10px;
+}
